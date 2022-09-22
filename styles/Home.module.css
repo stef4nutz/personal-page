@@ -114,3 +114,17 @@
 @media (min-width: 900px) {
   .cards { grid-template-columns: repeat(3, 1fr); }
 }
+
+@media (prefers-color-scheme: white) {
+  .stefanAnno {
+    border-radius: 10px;
+    margin: 3rem 7.8rem;
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #040301;
+    border: 3px solid #040301;
+  }
+}
