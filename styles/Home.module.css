@@ -1,0 +1,116 @@
+/* .container {
+  padding: 3rem;
+} */
+/* .stefanMain {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+.stefanMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.stefanMenu {
+  position: relative;
+  display: block;
+  text-align: center;
+  align-items: center;
+}
+.stefanLogo {
+  font-family: Muli;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 3rem 0 1rem;
+}
+.stefanMenu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.stefanMenu ul li a {
+  margin: 0 13px;
+  font-size: 15px;
+  font-weight: 700;
+}
+.stefanMenu ul li a:after {
+  content: "";
+  position: relative;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 100%;
+  transition: all .1s;
+  margin: 0 2px;
+}
+
+.stefanAnno {
+  background-color: #E9DFF7;
+  border-radius: 10px;
+  margin: 3rem 7.8rem 3rem;
+  padding: 3px 15px;
+  color: #1D1724;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* .stefanWorks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.stefanWork {
+  position: relative;
+  margin: 5rem 35px;
+  height: 10rem;
+  cursor: pointer;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -webkit-transition: all .1s;
+  transition: all .1s;
+}
+.stefanWork img {
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+} */
+
+.stefanWorks {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.stefanWork {
+  padding: 1rem;
+  text-align: center;
+}
+.stefanWork img {
+  width: 300px;
+  height: 300px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.stefanWork img:hover {
+  transform: translateY(-5px);
+  transition: all .3s;
+}
+
+/* Screen larger than 600px? 2 column */
+@media (min-width: 600px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Screen larger than 900px? 3 columns */
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
