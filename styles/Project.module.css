@@ -46,3 +46,16 @@
     color: #fff;
     background-image: linear-gradient(to right,var(--tw-gradient-stops));
 }
+@media (prefers-color-scheme: white) {
+  .projectDescription {
+    border-radius: 10px;
+    margin: 3rem 7.8rem;
+    padding: 3px 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #fff;
+    color: #040301;
+    border: 3px solid #040301;
+  }
+}
