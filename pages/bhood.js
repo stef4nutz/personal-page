@@ -22,7 +22,6 @@ export default function Project() {
             </div>
             <div className={styles.projectDescription}>
                 <p>landing page made for BROTHERHOOD ROMÂNIA community. made in <span class={styles.used}>html/css</span></p>
-                  <br />
                 <p>I do not own the fist logo.</p> 
             </div>
             <div className={styles.projectFull}>
