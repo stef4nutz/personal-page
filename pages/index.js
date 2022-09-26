@@ -50,6 +50,9 @@ export default function Home() {
         <div className={styles.stefanWork}>
         <Link href="/rockstar"><img src="/holder/rockstar.png" /></Link>
         </div>
+        <div className={styles.stefanWork}>
+        <Link href="/bhood"><img src="/holder/bhood.png" /></Link>
+        </div>
       </div>
     </div>
   )
