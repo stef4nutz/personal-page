@@ -39,9 +39,6 @@ export default function Home() {
         <Link href="/icebox"><img src="/holder/icebox.png" /></Link>
         </div>
         <div className={styles.stefanWork}>
-        <Link href="/warfield"><img src="/holder/warfield.png" /></Link>
-        </div>
-        <div className={styles.stefanWork}>
         <Link href="/leaks"><img src="/holder/leaks.png" /></Link>
         </div>
         <div className={styles.stefanWork}>
