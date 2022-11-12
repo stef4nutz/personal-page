@@ -24,7 +24,8 @@ export default function Project() {
                 <p>ips theme made for leaks.ro. made in <span class={styles.used}>php/html/css</span></p> 
             </div>
             <div className={styles.projectFull}>
-                <img src="../full/leaks.png"/>
+                <img src="../full/leaks-new.png"/>
+                <img src="../full/leaks-new-white.png"/>
             </div>
         </div>
     </div>
