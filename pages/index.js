@@ -42,9 +42,6 @@ export default function Home() {
         <Link href="/leaks"><img src="/holder/leaks.png" /></Link>
         </div>
         <div className={styles.stefanWork}>
-        <Link href="/treed"><img src="/holder/treed.png" /></Link>
-        </div>
-        <div className={styles.stefanWork}>
         <Link href="/rockstar"><img src="/holder/rockstar.png" /></Link>
         </div>
         <div className={styles.stefanWork}>
