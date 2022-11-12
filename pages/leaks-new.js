@@ -25,7 +25,7 @@ export default function Project() {
             </div>
             <div className={styles.projectFull}>
                 <img src="../full/leaks-new.png"/>
-                <img src="../full/leaks-new-white.png"/>
+                <img src="../full/leaks-new-light.png"/>
             </div>
         </div>
     </div>
