@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
       <div className={styles.stefanAnno}>
-        <p>Every order can be made through my discord or steam. <br /> If it has a selling tag on it, it's for sale.</p>
+        <p>A few of my works can be bought from <a href="https://builtbybit.com/resources/authors/eternity.192456/pane">BuiltByBit</a> or my <a href="https://discord.gg/CT9y7Xp">Discord</a></p>
       </div>
       </div>
 
@@ -49,6 +49,9 @@ export default function Home() {
         </div>
         <div className={styles.stefanWork}>
         <Link href="/bhood"><img src="/holder/bhood.png" /></Link>
+        </div>
+        <div className={styles.stefanWork}>
+        <Link href="/leaks-new"><img src="/holder/leaks-new.png" /></Link>
         </div>
       </div>
     </div>
