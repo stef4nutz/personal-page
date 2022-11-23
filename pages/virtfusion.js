@@ -6,7 +6,7 @@ export default function Project() {
     return(
     <>
     <Head>
-        <title>leaksOS Project</title>
+        <title>Virtfusion</title>
         <meta name="description" content="landing page for virtfusion" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
