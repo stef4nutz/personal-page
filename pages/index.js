@@ -50,6 +50,9 @@ export default function Home() {
         <div className={styles.stefanWork}>
         <Link href="/leaks-new"><img src="/holder/leaks-new.png" /></Link>
         </div>
+        <div className={styles.stefanWork}>
+        <Link href="/virtfusion"><img src="/holder/virtfusion.png" /></Link>
+        </div>
       </div>
     </div>
   )
