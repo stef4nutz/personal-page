@@ -6,8 +6,8 @@ export default function Project() {
     return(
     <>
     <Head>
-        <title>Virtfusion</title>
-        <meta name="description" content="landing page for virtfusion" />
+        <title>Discfusion</title>
+        <meta name="description" content="landing page for discfusion" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </Head>
 
@@ -18,10 +18,10 @@ export default function Project() {
 
         <div className={styles.projectExpand}>
             <div className={styles.projectTitle}>
-                <h1>VIRTFUSION</h1>
+                <h1>DISCFUSION</h1>
             </div>
             <div className={styles.projectDescription}>
-                <p>landing page for virtusion, i don't own the logo rights but the owner allowed me to use it as thumbnail. made in <span class={styles.used}>html/css and js for animations</span></p> 
+                <p>landing page for discfusion, i don't own the logo rights but the owner allowed me to use it as thumbnail. made in <span class={styles.used}>html/css and js for animations</span></p> 
             </div>
             <div className={styles.projectFull}>
                 <img src="../full/virtfusionfull.png"/>
