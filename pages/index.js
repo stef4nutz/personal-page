@@ -27,7 +27,7 @@ export default function Home() {
         </div>
 
       <div className={styles.stefanAnno}>
-        <p>A few of my works can be bought from <a href="https://builtbybit.com/resources/authors/eternity.192456/pane">BuiltByBit</a> or my <a href="https://discord.gg/CT9y7Xp">Discord</a></p>
+        <p>A few of my works can be bought from <a href="https://builtbybit.com/resources/authors/witchblades.192456/pane">BuiltByBit</a> or my <a href="https://discord.gg/CT9y7Xp">Discord</a></p>
       </div>
       </div>
 
