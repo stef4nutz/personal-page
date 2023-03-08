@@ -18,7 +18,7 @@ export default function Home() {
         </div>
           <ul className={styles.stefanSocials}>
             <li>
-              <a href="https://github.com/sharoskyy" className="github">github</a>
+              <a href="https://github.com/stef4nutz" className="github">github</a>
               <a href="https://discord.gg/CT9y7Xp" className="discord">discord</a>
               <a href="https://steamcommunity.com/id/stef4nutz" className="steam">steam</a>
               <a href="https://open.spotify.com/user/y8guwub3gz3gutzez151d6p8m?si=66692d46a3b243e4" className="spotify">spotify</a>
