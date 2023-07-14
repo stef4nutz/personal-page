@@ -56,6 +56,9 @@ export default function Home() {
         <div className={styles.stefanWork}>
         <Link href="/elysed"><img src="/holder/elysed.png" /></Link>
         </div>
+        <div className={styles.stefanWork}>
+        <Link href="/crowland"><img src="/holder/crowland.png" /></Link>
+        </div>
       </div>
     </div>
   )
